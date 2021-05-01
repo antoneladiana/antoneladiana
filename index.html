@@ -1,126 +1,312 @@
----
-layout: default
----
-<section>
-  <h2>Web Development Projects</h2>
-  <h3>HTML & CSS</h3>
-  <ul>
-    <li>
-      <a href="profile-card-component/">
-          Profile card component
-      </a>
-    </li>
-    <li>
-      <a href="social-proof-section/">
-          Social proof section
-      </a>
-    </li>
-    <li>
-      <a href="four-card-feature-section/">
-          Four card feature section
-      </a>
-    </li>
-    <li>
-      <a href="single-price-grid-component/">
-          Single price grid component
-      </a>
-    </li>
-    <li>
-      <a href="huddle-landing-page-with-a-single-introductory-section/">
-          Huddle landing page with a single introductory section
-      </a>
-    </li>
-    <li>
-      <a href="testimonials-grid-section/">
-          Testimonials grid section
-      </a>
-    </li>
-    <li>
-      <a href="fylo-data-storage-component/">
-          Fylo data storage component
-      </a>
-    </li>
-    <li>
-      <a href="clipboard-landing-page/">
-          Clipboard landing page
-      </a>
-    </li>
-    <li>
-      <a href="huddle-landing-page-with-alternating-feature-blocks/">
-          Huddle landing page with alternating feature blocks.
-      </a>
-    </li>
-    <li>
-      <a href="fylo-dark-theme-landing-page/">
-          Fylo dark theme landing page
-      </a>
-    </li>
-    <li>
-      <a href="fylo-landing-page-with-two-column-layout/">
-          Fylo landing page with two column layout
-      </a>
-    </li>
-    <li>
-      <a href="huddle-landing-page-with-curved-sections/">
-          Huddle landing page with curved sections
-      </a>
-    </li>
-    <li>
-      <a href="chat-app-css-illustration/">
-          Chat app CSS illustration
-      </a>
-    </li>
-  </ul>
-  <h3>JavaScript</h3>
-  <ul>
-    <li>
-      <a href="faq-accordion-card/">
-          FAQ accordion card
-      </a>
-    </li>
-    <li>
-      <a href="article-preview-component/">
-          Article preview component
-      </a>
-    </li>
-    <li>
-      <a href="coding-bootcamp-testimonials-slider/">
-        Coding bootcamp testimonials slider
-      </a>
-    </li>
-    <li>
-      <a href="base-apparel-coming-soon/">
-        Base apparel coming soon
-      </a>
-    </li>
-    <li>
-      <a href="intro-component-with-signup-form/">
-        Intro component with signup form
-      </a>
-    </li>
-    <li>
-      <a href="ping-single-column-coming-soon-page/">
-        Ping single column coming soon page
-      </a>
-    </li>
-    <li>
-      <a href="pod-request-access-landing-page/">
-        Pod request acces landing page
-      </a>
-    </li>
-    <!-- <li>
-      <a href="loopstudios-landing-page/">
-        Loopstudios landing page
-      </a>
-    </li> -->
-  </ul>
-  <h3>Flask</h3>
-  <ul>
-    <li>
-      <a href="url-shortener/">URL shortener</a>
-    </li>
-    <!-- <li>
-      <a href="handwritten-digit-recognizer/">Handwritten digit recognizer</a>
-    </li> -->
-  </ul>
-</section>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Title -->
+  <title>Antonela Diana</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+
+  <!-- JavaScript -->
+  <script src="./scripts/script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">
+      <a class="logo__link" href="">Antonela Diana</a>
+    </h1>
+    <div class="menu">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#projects">Projects</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#more">More</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#about">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- <div class="switch">
+        Light | Dark
+      </div> -->
+    </div>
+  </header>
+  <main class="main">
+    <section class="intro">
+      <h2 class="intro__title">Antonela Diana</h2>
+      <p class="intro__description">
+        I'm an electronics engineer specialized in web development and
+        machine learning.
+      </p>
+    </section>
+    <section class="section" id="projects">
+      <h3 class="section__title">Some of my projects</h3>
+      <article class="project">
+        <img class="project__img" 
+             src="./images/url-shortener-light.png" 
+             alt="URL Shortener website." width="1525" height="797">
+        <div class="project__text">
+          <h4 class="project__title">URL Shortener Application</h4>
+          <ul class="project__list">
+            <li class="project__item">Python</li>
+            <li class="project__item">Flask</li>
+            <li class="project__item">JavaScript</li>
+            <li class="project__item">HTML/CSS</li>
+          </ul>
+          <p class="project__description">
+            A responsive URL Shortener application that works both for websites and
+            files, built with Flask.
+          </p>
+          <ul class="project__links">
+            <li>
+              <a class="project__link" target="_blank"
+                 href="https://antoneladiana.github.io/url-shortener/">
+                View Site
+              </a>
+            </li>
+            <li>
+              <a class="project__link" target="_blank"
+                 href="https://github.com/antoneladiana/url-shortener-app">
+                View Code
+              </a>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article class="project">
+        <img class="project__img" 
+             src="./images/landing-page-light.png" 
+             alt="URL Shortener website." width="1461" height="785">
+        <div class="project__text">
+          <h4 class="project__title">Landing Page</h4>
+          <ul class="project__list">
+            <li class="project__item">JavaScript</li>
+            <li class="project__item">HTML/CSS</li>
+          </ul>
+          <p class="project__description">
+            A responsive early access landing page mockup built based on design 
+            images.
+          </p>
+          <ul class="project__links">
+            <li>
+              <a class="project__link" target="_blank"
+                 href="https://antoneladiana.github.io/pod-request-access-landing-page/">
+                View Site
+              </a>
+            </li>
+            <li>
+              <a class="project__link" target="_blank"
+                 href="https://github.com/antoneladiana/pod-request-access-landing-page/">
+                View Code
+              </a>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article class="project">
+        <img class="project__img" 
+             src="./images/data-storage-light.png" 
+             alt="URL Shortener website." width="1525" height="797">
+        <div class="project__text">
+          <h4 class="project__title">Data Storage Component</h4>
+          <ul class="project__list">
+            <li class="project__item">HTML/CSS</li>
+          </ul>
+          <p class="project__description">
+            A responsive data storage component mockup built entirely with 
+            HTML and CSS, based on design images.
+          </p>
+          <ul class="project__links">
+            <li>
+              <a class="project__link" target="_blank"
+                 href="https://antoneladiana.github.io/fylo-data-storage-component/">
+                View Site
+              </a>
+            </li>
+            <li>
+              <a class="project__link" target="_blank"
+                 href="https://github.com/antoneladiana/fylo-data-storage-component/">
+                View Code
+              </a>
+            </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <section class="section" id="more">
+      <h3 class="section__title">Some more projects</h3>
+      <h4 class="section__subtitle">JavaScript</h4>
+      <ul>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="faq-accordion-card/">
+              FAQ accordion card
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="article-preview-component/">
+              Article preview component
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="coding-bootcamp-testimonials-slider/">
+            Coding bootcamp testimonials slider
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="base-apparel-coming-soon/">
+            Base apparel coming soon
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="intro-component-with-signup-form/">
+            Intro component with signup form
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="ping-single-column-coming-soon-page/">
+            Ping single column coming soon page
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="pod-request-access-landing-page/">
+            Pod request acces landing page
+          </a>
+        </li>
+      </ul>
+      <h4 class="section__subtitle">HTML/CSS</h4>
+      <ul>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="profile-card-component/">
+            Profile card component
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="social-proof-section/">
+              Social proof section
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="four-card-feature-section/">
+              Four card feature section
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="single-price-grid-component/">
+              Single price grid component
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="huddle-landing-page-with-a-single-introductory-section/">
+              Huddle landing page with a single introductory section
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="testimonials-grid-section/">
+              Testimonials grid section
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="fylo-data-storage-component/">
+              Fylo data storage component
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="clipboard-landing-page/">
+              Clipboard landing page
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="huddle-landing-page-with-alternating-feature-blocks/">
+              Huddle landing page with alternating feature blocks.
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="fylo-dark-theme-landing-page/">
+              Fylo dark theme landing page
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="fylo-landing-page-with-two-column-layout/">
+              Fylo landing page with two column layout
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="huddle-landing-page-with-curved-sections/">
+              Huddle landing page with curved sections
+          </a>
+        </li>
+        <li class="section__paragraph">
+          <a class="section__link" target="_blank" 
+             href="chat-app-css-illustration/">
+              Chat app CSS illustration
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="section" id="about">
+      <h3 class="section__title">About me</h3>
+      <p class="section__paragraph">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto asperiores voluptatibus harum velit accusamus quidem obcaecati culpa rem dolores porro, fugit repudiandae fuga officia sed provident doloribus explicabo perspiciatis numquam.
+      </p>
+      <p class="section__paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rerum animi quasi laborum. Quis dicta error nulla cumque a doloribus? Explicabo laudantium quia odit tenetur sunt iste! Illum, accusamus accusantium.
+      </p>
+    </section>
+    <section class="section" id="contact">
+      <h3 class="section__title">Contact info</h3>
+      <p class="section__paragraph">
+      If you wish to contact me, you can email me at 
+          <a class="section__link"
+             href="mailto:adiana@fi.uba.ar" target="_blank">
+            adiana@fi.uba.ar
+          </a>
+      </p>
+      <p class="section__paragraph">
+        You can visit my 
+        <a class="section__link"
+           href="https://github.com/antoneladiana/">
+          GitHub</a> to see some other projects I've worked on.
+      </p>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="attribution">
+        Coded by <a class="attribution__link" href="">Antonela Diana</a>.
+    </p>
+  </footer>
+</body>
+</html>
