@@ -94,15 +94,9 @@ img {
 }
 
 /* Navigation */
-.nav {
-
-}
 .nav__list {
 	display: flex;
 	column-gap: 2vw;
-}
-.nav__item {
-
 }
 .nav__link {
 	text-decoration: none;
@@ -161,7 +155,7 @@ img {
 	font-weight: 500;
 }
 .section__paragraph {
-	line-height: 1.5;
+	line-height: 1.8;
 	padding-bottom: 1em;
 }
 .section__link {
