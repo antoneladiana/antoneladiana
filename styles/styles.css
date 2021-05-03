@@ -5,6 +5,7 @@
 /* Variables */
 :root {
     --main-color-light: #FFF0EB;
+	--hover-background-color: #FFD1C2;
     --main-color-dark: #5A5463;
 	--box-shadow-color: rgba(90, 84, 99, 0.5);
     --main-font: 'Montserrat', sans-serif;;
@@ -151,8 +152,16 @@ img {
 }
 .section__subtitle {
 	font-size: 1.4em;
-	margin: 1em 0;
 	font-weight: 500;
+	cursor: pointer;
+	padding: 1em;
+	margin: 1em -1em;
+}
+.section__subtitle:hover {
+	background-color: var(--hover-background-color);
+}
+.section__panel {
+	display: none;
 }
 .section__paragraph {
 	line-height: 1.8;
